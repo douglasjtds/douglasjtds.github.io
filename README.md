@@ -1,1 +1,1 @@
-# http://douglasjtds.github.io
+# http://douglasjtds.curriculo/
