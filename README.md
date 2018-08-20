@@ -1,1 +1,1 @@
-# http://douglasjtds.curriculo/
+# http://douglasjtds.curriculo.com.br
