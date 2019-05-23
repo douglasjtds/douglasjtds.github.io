@@ -145,3 +145,12 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+::selection {
+  background: #24d650; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #24d650; /* Gecko Browsers */
+  color: white;
+}
