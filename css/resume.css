@@ -154,3 +154,21 @@ a:hover, a:focus, a:active {
   background: #24d650; /* Gecko Browsers */
   color: white;
 }
+
+ .block { /*para a imagem do qr code */
+  
+  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 150px;
+  
+  /* right: 200px;
+  top: 400px;
+  float: right; */
+
+
+  /* background: #24d650; */
+  color: #fff;
+  padding: 20px;
+}
