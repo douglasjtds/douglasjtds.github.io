@@ -104,6 +104,14 @@ h2 {
   }
 }
 
+@media (max-width: 1048px){
+  .block{
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
@@ -155,20 +163,16 @@ a:hover, a:focus, a:active {
   color: white;
 }
 
- .block { /*para a imagem do qr code */
-  
-  
+/*para a imagem do qr code */
+ .block {
   position: fixed;
   bottom: 0;
   right: 0;
   max-width: 150px;
+  color: #fff;
+  padding: 20px;
   
   /* right: 200px;
   top: 400px;
-  float: right; */
-
-
-  /* background: #24d650; */
-  color: #fff;
-  padding: 20px;
+  float: right;*/
 }
