@@ -164,7 +164,7 @@ a:hover, a:focus, a:active {
 }
 
 /*para a imagem do qr code */
- .block {
+.block {
   position: fixed;
   bottom: 0;
   right: 0;
