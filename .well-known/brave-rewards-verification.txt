@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: douglasjtds.github.io
+Token: 5389e87b135cc640d24ffdd551d6e2f90766694e0a79d544e3d8e0e905098ffc
