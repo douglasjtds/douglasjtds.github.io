@@ -176,3 +176,44 @@ a:hover, a:focus, a:active {
   top: 400px;
   float: right;*/
 }
+
+.toggle-container {
+  width: 50px;
+  height: 20px;
+  padding: 0px;
+  border-radius: 30px;
+  background-color: rgb(245, 245, 239);
+  transition: all 0.2s ease 0s;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.toggle-circle {
+  position: absolute;
+  top: 50px;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: right 500ms ease 0s;
+  background-color: rgb(39, 39, 39);
+  border : 2px solid rgb(245, 245, 239);
+  box-shadow: rgba(0, 0, 0, 0.41) 0px 1px 6px 1px;
+}
+
+.toggle-input { 
+  border: 0px;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0px;
+  position: absolute;
+  width: 1px;
+}
+
+.legend {
+  height: 14px;
+}
