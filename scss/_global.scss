@@ -60,3 +60,24 @@ h2 {
     }
   }
 }
+
+.lang-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  font-size: 1.8rem;
+  line-height: 1;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 4px;
+  transition: transform 0.15s, opacity 0.15s;
+  opacity: 0.85;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
