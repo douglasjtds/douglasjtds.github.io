@@ -17,7 +17,7 @@ var translations = {
     'section.interests': 'Interesses',
     'exp.job1.title': 'Analista Desenvolvedor Sênior',
     'exp.job1.date': 'Agosto 2022 - Presente',
-    'exp.job1.desc': 'Trabalho atualmente na squad Payments desenvolvendo e mantendo APIs inovadoras com tecnologias como BNPL (Buy Now Pay Later) e ITP (Iniciador de Transação de Pagamento), anteriormente trabalhei também no sistema de cobrança e faturamento da ClearSale, que é fornecido para diversas empresas de marketplace. Entrei em agosto de 2022 pela antiga Beta Learning que posteriomente, no ano de 2023, foi comprada pela ClearSale.',
+    'exp.job1.desc': 'Trabalho atualmente na squad Payments desenvolvendo e mantendo APIs inovadoras com tecnologias como BNPL (Buy Now Pay Later) e ITP (Iniciador de Transação de Pagamento), anteriormente trabalhei também no sistema de cobrança e faturamento da ClearSale, que é fornecido para diversas empresas de marketplace. Entrei em agosto de 2022 pela antiga Beta Learning que posteriormente, no ano de 2023, foi comprada pela ClearSale.',
     'exp.job2.title': 'Analista Desenvolvedor Pleno',
     'exp.job2.date': 'Março 2020 - Agosto 2022',
     'exp.job2.desc': 'Trabalhei como Desenvolvedor Backend .Net atuando para o cliente Itaú dentro da Zup. Atuei também como API Owner da equipe, estando diretamente ligado com todo o processo de CI/CD do nosso API Gateway disponibilizado na AWS.',
