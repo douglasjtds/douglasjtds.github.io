@@ -112,6 +112,7 @@ function applyLang(lang) {
 
   currentLang = lang;
   localStorage.setItem('lang', lang);
+  document.documentElement.lang = lang;
 
   document.querySelectorAll('[data-i18n]').forEach(function(el) {
     var key = el.getAttribute('data-i18n');
