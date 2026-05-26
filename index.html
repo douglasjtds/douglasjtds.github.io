@@ -510,7 +510,7 @@
   </div>
 
   <!-- Language toggle button -->
-  <button id="lang-toggle" class="lang-toggle" onclick="toggleLang()">🇺🇸</button>
+  <button id="lang-toggle" class="lang-toggle">🇺🇸</button>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -521,6 +521,14 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var langToggleButton = document.getElementById('lang-toggle');
+      if (langToggleButton && typeof window.toggleLang === 'function') {
+        langToggleButton.addEventListener('click', window.toggleLang);
+      }
+    });
+  </script>
 
 </body>
 
