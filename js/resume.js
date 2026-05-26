@@ -105,6 +105,11 @@ var translations = {
 var currentLang = localStorage.getItem('lang') || 'pt';
 
 function applyLang(lang) {
+  // Fallback to 'pt' if the provided lang does not exist in translations
+  if (!translations[lang]) {
+    lang = 'pt';
+  }
+
   currentLang = lang;
   localStorage.setItem('lang', lang);
 
